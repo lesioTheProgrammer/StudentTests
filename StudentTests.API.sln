@@ -3,9 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30320.27
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentTests.Repository", "StudentTests.Repository\StudentTests.Repository.csproj", "{D299F0C1-7B05-49EA-8264-107DF2DADDF7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StudentTests.Repository", "StudentTests.Repository\StudentTests.Repository.csproj", "{D299F0C1-7B05-49EA-8264-107DF2DADDF7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentTests.Api", "StudentTests.Api\StudentTests.Api.csproj", "{1275EB6F-F7CD-411D-A66F-386256AEFBEB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StudentTests.Api", "StudentTests.Api\StudentTests.Api.csproj", "{1275EB6F-F7CD-411D-A66F-386256AEFBEB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentTests.Domain", "StudentTests.Domain\StudentTests.Domain.csproj", "{EED1B7D8-9084-4E8C-A1D3-B1317B866F3B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentTests.Database", "StudentTests.Database\StudentTests.Database.csproj", "{047B9C2F-9992-406C-923C-63E901E31981}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,14 @@ Global
 		{1275EB6F-F7CD-411D-A66F-386256AEFBEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1275EB6F-F7CD-411D-A66F-386256AEFBEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1275EB6F-F7CD-411D-A66F-386256AEFBEB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EED1B7D8-9084-4E8C-A1D3-B1317B866F3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EED1B7D8-9084-4E8C-A1D3-B1317B866F3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EED1B7D8-9084-4E8C-A1D3-B1317B866F3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EED1B7D8-9084-4E8C-A1D3-B1317B866F3B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{047B9C2F-9992-406C-923C-63E901E31981}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{047B9C2F-9992-406C-923C-63E901E31981}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{047B9C2F-9992-406C-923C-63E901E31981}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{047B9C2F-9992-406C-923C-63E901E31981}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
